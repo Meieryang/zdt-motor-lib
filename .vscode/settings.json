@@ -1,0 +1,27 @@
+{
+    "C_Cpp.intelliSenseEngine": "Tag Parser",
+    "idf.adapterTargetName": "esp32",
+    "idf.customExtraPaths": "/Users/meieryang/.espressif/tools/xtensa-esp-elf-gdb/12.1_20221002/xtensa-esp-elf-gdb/bin:/Users/meieryang/.espressif/tools/riscv32-esp-elf-gdb/12.1_20221002/riscv32-esp-elf-gdb/bin:/Users/meieryang/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin:/Users/meieryang/.espressif/tools/xtensa-esp32s2-elf/esp-12.2.0_20230208/xtensa-esp32s2-elf/bin:/Users/meieryang/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin:/Users/meieryang/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin:/Users/meieryang/.espressif/tools/esp32ulp-elf/2.35_20220830/esp32ulp-elf/bin:/Users/meieryang/.espressif/tools/cmake/3.24.0/CMake.app/Contents/bin:/Users/meieryang/.espressif/tools/openocd-esp32/v0.12.0-esp32-20230419/openocd-esp32/bin:/Users/meieryang/.espressif/tools/ninja/1.10.2:/Users/meieryang/.espressif/tools/esp-rom-elfs/20230320",
+    "idf.customExtraVars": {
+        "OPENOCD_SCRIPTS": "/Users/meieryang/.espressif/tools/openocd-esp32/v0.12.0-esp32-20230419/openocd-esp32/share/openocd/scripts",
+        "ESP_ROM_ELF_DIR": "/Users/meieryang/.espressif/tools/esp-rom-elfs/20230320/"
+    },
+    "idf.espIdfPath": "/Users/meieryang/esp/esp-idf",
+    "idf.openOcdConfigs": [
+        "interface/ftdi/esp32_devkitj_v1.cfg",
+        "target/esp32.cfg"
+    ],
+    "idf.port": "/dev/cu.usbserial-0001",
+    "idf.pythonBinPath": "/Users/meieryang/.espressif/python_env/idf5.2_py3.11_env/bin/python",
+    "idf.toolsPath": "/Users/meieryang/.espressif",
+    "idf.monitorBaudRate": "115200",
+    "idf.flashType": "UART",
+    "files.associations": {
+        "compare": "cpp",
+        "string_view": "cpp",
+        "regex": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "vector": "cpp"
+    }
+}

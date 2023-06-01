@@ -1,0 +1,61 @@
+/*
+#pragma once
+#include <stdio.h>
+#include <vector>
+#include "esp_system.h"
+#include "esp_log.h"
+#include "driver/uart.h"
+#include "driver/gpio.h"
+
+typedef enum {
+    ...
+} byte_num_t;
+
+typedef enum {
+    ...
+} cmd_t;
+
+class ZDTMotor {
+    private:
+    uint8_t arg1;
+    gpio_num_t arg2;
+
+public:
+    ZDTMotor ( uint8_t arg1, gpio_num_t arg2)
+    {
+        init();
+    }
+
+private:
+    void init()
+    {
+        ...
+    }
+
+    template<typename... Args>
+    bool send_data(cmd_t cmd, Args... args)
+    {
+        ...
+    }
+
+    int32_t receive_data(int8_t expected_length)
+    {
+        ...
+    }
+
+public:
+    uint8_t cancel_motor_protect() {
+
+        ...
+    }
+
+    uint16_t get_encoder_value() {
+
+        ...
+    }
+    uint16_t get_pulse_value() {
+
+        ...
+    }
+}
+*/
